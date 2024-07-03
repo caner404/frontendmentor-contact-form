@@ -30,7 +30,10 @@ export default function Textarea({
         } px-6 py-4 border focus:outline-none  text-custom-grey-900 text-lg font-medium tracking-[150%] rounded-lg h-[275px] md:h-[125px] `}
       ></textarea>
 
-      <ErrorMessage name={name} />
+      <ErrorMessage
+        name={name}
+        id={`${id}_error`}
+      />
     </>
   );
 }

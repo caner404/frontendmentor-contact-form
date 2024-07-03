@@ -36,7 +36,10 @@ export function Checkbox(props: CheckboxProps) {
         )}
       </div>
 
-      <ErrorMessage name={props.name} />
+      <ErrorMessage
+        name={props.name}
+        id={`${props.id}_error)`}
+      />
     </div>
   );
 }

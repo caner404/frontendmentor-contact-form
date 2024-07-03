@@ -32,7 +32,10 @@ export function RadioGroup({ name }: { name: string }) {
           options={{ required: 'Please select a query type' }}
         />
       </div>
-      <ErrorMessage name={name} />
+      <ErrorMessage
+        name={name}
+        id={`${name}_error`}
+      />
     </div>
   );
 }
