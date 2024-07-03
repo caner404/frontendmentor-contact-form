@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-      <main className='max-w-full max-h-[100vh] md:w-[736px]'>
+      <main className='max-w-full max-h-[100vh] md:w-[736px] m-6'>
         <Form onSubmit={onSubmit}>
           <section className='flex flex-col gap-8'>
             <h1 className='font-bold text-[32px] -tracking-[1px] text-left text-custom-grey-900'>Contact Us</h1>

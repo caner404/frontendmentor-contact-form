@@ -26,7 +26,7 @@ export default function Form({ children, onSubmit }: PropsWithChildren<FormProps
           reset();
         })}
         noValidate
-        className='p-6 bg-white rounded-2xl flex flex-col gap-10 m-5 '
+        className=' bg-white rounded-2xl flex flex-col gap-10 p-6 md:p-10'
       >
         {children}
       </form>
