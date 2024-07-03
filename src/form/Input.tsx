@@ -21,7 +21,7 @@ export function Input({ ...props }: InputProps) {
         className='relative w-full bg-custom-green-600 hover:cursor-pointer px-10 py-4 rounded-lg font-bold text-lg leading-[150%] overflow-hidden'
       >
         <span className='relative z-10 text-white'>{props.value}</span>
-        <div className='absolute inset-0 bg-custom-green-600 rounded-lg hover:brightness-50'></div>
+        <span className='absolute inset-0 bg-custom-green-600 rounded-lg hover:brightness-50'></span>
       </button>
     );
   }
